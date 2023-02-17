@@ -10,7 +10,8 @@ class MinhaClasse {
         };
 
         // Imprir vetor
-        System.out.println("0) Pessoas em fileiras e assentos: " + Arrays.deepToString(pessoasEmFileirasAssentos));
+        System.out.println("0) Pessoas em fileiras e assentos:");
+        System.out.println(Arrays.deepToString(pessoasEmFileirasAssentos));
 
         // Pegar segunda(1) fileira do vetor pessoasEmFileirasAssentos - um vetor de assentos (que são strings)
         String[] segundaFileira = pessoasEmFileirasAssentos[1];
@@ -31,6 +32,7 @@ class MinhaClasse {
         pessoasEmFileirasAssentos[0][1] = "Adriana";
 
         // Imprimir resultado
-        System.out.println("3) Pessoas em fileiras e assentos: " + Arrays.deepToString(pessoasEmFileirasAssentos));
+        System.out.println("3) Pessoas em fileiras e assentos:");
+        System.out.println(Arrays.deepToString(pessoasEmFileirasAssentos));
     }
 }
