@@ -1,4 +1,3 @@
-
 var pessoasNoCinema = [
     ["João", "Maria", "Luiz"],
     ["Amanda", "José", "Paulo"]
@@ -11,4 +10,4 @@ var combo1 = pessoasNoCinema[1][2]
 
 pessoasNoCinema[0][1] = "Mario"
 
-print(pessoasNoCinema[0])
+console.log(pessoasNoCinema[0])
